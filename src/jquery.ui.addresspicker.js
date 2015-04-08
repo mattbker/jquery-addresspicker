@@ -45,7 +45,7 @@
             type: false
 
         },
-        autocomplete: '' // could be autocomplete: "bootstrap" to use bootstrap typeahead autocomplete instead of jQueryUI
+        autocomplete: ''
     },
 
     marker: function() {
@@ -87,7 +87,6 @@
             }
           });
         }
-        //new google.maps.Geocoder();
       };
 
       if (this.options.autocomplete === 'bootstrap') {
